@@ -19,7 +19,7 @@ bot.on('guildMemberAdd', member => {
     member.addRole(role)
     var embed = new Discord.RichEmbed()
     .setColor("#38ad15")
-    .setDescription(':white_check_mark: **Bienvenue** à toi **<@${member.user.id}>** sur le serveur discord ${serverTag}')
+    .setDescription(":white_check_mark: **Bienvenue** à toi **<@${member.user.id}>** sur le serveur discord ${serverTag}")
     return welcomechannel.send({embed})
 });
 
@@ -29,7 +29,7 @@ bot.on('guildMemberRemove', member => {
     const welcomechannel = member.guild.channels.find('id', '699004101563777106')
     var embed = new Discord.RichEmbed()
     .setColor("#38ad15")
-    .setDescription(':wave: **<@${member.user.id}>** viens de quitté le serveur ${serverTag}, bye bye !!!')
+    .setDescription(":wave: **<@${member.user.id}>** viens de quitté le serveur ${serverTag}, bye bye !!!")
     return welcomechannel.send({embed})
 });
 
