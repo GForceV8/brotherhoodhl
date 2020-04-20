@@ -212,6 +212,11 @@ bot.on("message", async function(message) {
             message.delete();
             break;
 		    
+            case "uniterror":
+            message.channel.sendMessage("Actuellement le site des **"units"** est en PLS donc il faudras attendre un moment pour les avoir .");
+            message.delete();
+            break;
+		    
             case "membres":
             message.reply("Nous sommes actuellement " + (bot.users.size - 2) + " membres sur le **Brotherhood** !");
             message.delete();
