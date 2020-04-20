@@ -213,7 +213,7 @@ bot.on("message", async function(message) {
             break;
 		    
             case "uniterror":
-            message.channel.sendMessage("Actuellement le site des **"units"** est en PLS donc il faudras attendre un moment pour les avoir .");
+            message.channel.sendMessage("Actuellement le site des **''units''** est en PLS donc il faudras attendre un moment pour les avoir .");
             message.delete();
             break;
 		    
