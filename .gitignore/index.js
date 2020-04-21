@@ -206,6 +206,31 @@ bot.on("message", async function(message) {
                 message.channel.sendEmbed(embed)
 
                 break;
+		    
+            case "stuff":
+            var embed = new Discord.RichEmbed()
+                .addField("Package **Sépa**")
+                .addField("Tenue, Gilet, Sac, Béret, Bandanas(non obligé)", "Outils de crochetage+serrurier, Lampe frontal, Bandage x10, GPS x1, Serflex x6, pince coupante x1, Chargeur (entre x6 et x11 + le chargeur engagé), Roue de secours x2 ou x4, bouteille d'eau x10, Nourriture (cela depend se que tu a)")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .addField("***")
+                .setColor("#3b9908")
+                .setFooter("Brotherhood by @GForceV8")
+                .setAuthor(message.author.username, message.author.avatarURL)
+                .setTimestamp()
+                message.delete()
+                message.channel.sendEmbed(embed)
+
+                break;  
 
             case "brotherhood":
             message.channel.sendMessage("Le bot Brotherhood est en ligne.");
