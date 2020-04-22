@@ -197,7 +197,7 @@ bot.on("message", async function(message) {
 		        	    
             case "unit":
             var embed = new Discord.RichEmbed()
-                .addField("Groupe Unit ** @Full Patch **", "https://units.arma3.com/unit/brotherhood-hl")
+                .addField("Groupe Unit ** @Full Patch **", "Voici votre unit @699005379102638182 https://units.arma3.com/unit/brotherhood-hl")
                 .setColor("#3b9908")
                 .setFooter("Unit - Brotherhood by @GForceV8")
                 .setAuthor(message.author.username, message.author.avatarURL)
@@ -209,7 +209,7 @@ bot.on("message", async function(message) {
 		    
             case "unitp":
             var embed = new Discord.RichEmbed()
-                .addField("Groupe Unit ** @Prospect ** ", "https://units.arma3.com/unit/brotherhood-hl-p")
+                .addField("Groupe Unit ** @Prospect ** ", "Voici votre unit @699005417879240754 https://units.arma3.com/unit/brotherhood-hl-p")
                 .setColor("#3b9908")
                 .setFooter("Unit - Brotherhood by @GForceV8")
                 .setAuthor(message.author.username, message.author.avatarURL)
