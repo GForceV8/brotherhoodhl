@@ -252,6 +252,11 @@ bot.on("message", async function(message) {
             message.delete();
             break;
 		    
+            case "pst":
+            message.channel.sendMessage("@prospect ");
+            message.delete();
+            break;  
+		    
             default:
             message.channel.sendMessage(":x: Commande invalide. Fait !aide pour voir toutes les commandes disponibles !")
             message.delete();
