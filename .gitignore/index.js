@@ -197,7 +197,7 @@ bot.on("message", async function(message) {
 		        	    
             case "unit":
             var embed = new Discord.RichEmbed()
-                .addField("Groupe Unit ** @Full Patch **", "Voici votre unit @Full Patch https://units.arma3.com/unit/brotherhood-hl")
+                .addField("Groupe Unit ** @Full Patch **", "Voici votre unit @[-🚲-Full Patch] https://units.arma3.com/unit/brotherhood-hl")
                 .setColor("#3b9908")
                 .setFooter("Unit - Brotherhood by @GForceV8")
                 .setAuthor(message.author.username, message.author.avatarURL)
