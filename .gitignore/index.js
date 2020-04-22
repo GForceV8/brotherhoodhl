@@ -197,7 +197,19 @@ bot.on("message", async function(message) {
 		        	    
             case "unit":
             var embed = new Discord.RichEmbed()
-                .addField("Groupe Unit", "https://units.arma3.com/unit/brotherhood-hl")
+                .addField("Groupe Unit ** @Full Patch **", "https://units.arma3.com/unit/brotherhood-hl")
+                .setColor("#3b9908")
+                .setFooter("Unit - Brotherhood by @GForceV8")
+                .setAuthor(message.author.username, message.author.avatarURL)
+                .setTimestamp()
+                message.delete()
+                message.channel.sendEmbed(embed)
+
+                break;
+		    
+            case "unitp":
+            var embed = new Discord.RichEmbed()
+                .addField("Groupe Unit ** @Prospect ** ", "https://units.arma3.com/unit/brotherhood-hl-p")
                 .setColor("#3b9908")
                 .setFooter("Unit - Brotherhood by @GForceV8")
                 .setAuthor(message.author.username, message.author.avatarURL)
@@ -224,7 +236,7 @@ bot.on("message", async function(message) {
             message.channel.sendMessage("Le bot Brotherhood est en ligne.");
             message.delete();
             break;
-		    
+
             case "uniterror":
             message.channel.sendMessage("Actuellement le site des **''units''** est en PLS donc il faudras attendre un moment pour les avoir .");
             message.delete();
