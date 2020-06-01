@@ -273,7 +273,7 @@ bot.on("message", async function(message) {
             break;  
 		    
             case "alex":
-            message.channel.sendMessage("Alexis tes vraiment un nul du ZiZi sexuel toi hein :) ");
+            message.channel.sendMessage("(Alexis) Titeuf tes vraiment un nul du ZiZi sexuel toi hein :) ");
             message.delete();
             break;  
 		    
