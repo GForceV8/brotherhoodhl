@@ -272,6 +272,11 @@ bot.on("message", async function(message) {
             message.delete();
             break;  
 		    
+            case "alex":
+            message.channel.sendMessage("Alexis tes vraiment un nul du ZiZi sexuel toi hein :) ");
+            message.delete();
+            break;  
+		    
             default:
             message.channel.sendMessage(":x: Commande invalide. Aucune commandes disponibles !")
             message.delete();
