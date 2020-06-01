@@ -255,6 +255,11 @@ bot.on("message", async function(message) {
             case "pst":
             message.channel.sendMessage("@prospect ");
             message.delete();
+            break;
+		   
+            case "lopi":
+            message.channel.sendMessage("Lopito la petite lopette :) ");
+            message.delete();
             break;  
 		    
             default:
