@@ -262,6 +262,16 @@ bot.on("message", async function(message) {
             message.delete();
             break;  
 		    
+            case "karim":
+            message.channel.sendMessage("Karim retourne voler le sac a main de la petite vielle :) ");
+            message.delete();
+            break;  
+		    
+            case "Aza":
+            message.channel.sendMessage("Aza le vieux grincheux :) ");
+            message.delete();
+            break;  
+		    
             default:
             message.channel.sendMessage(":x: Commande invalide. Aucune commandes disponibles !")
             message.delete();
