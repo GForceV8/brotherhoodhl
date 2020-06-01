@@ -267,7 +267,7 @@ bot.on("message", async function(message) {
             message.delete();
             break;  
 		    
-            case "Aza":
+            case "aza":
             message.channel.sendMessage("Aza le vieux grincheux :) ");
             message.delete();
             break;  
